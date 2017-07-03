@@ -21,4 +21,5 @@ struct node
 	node * lchild; //next block
 	node(int dep=0,msg *con=NULL,node *ne=NULL,node * lch=NULL):dept(dep),content(con),next(ne),lchild(lch){}
 };
+string hashfun(msg *a);
 #endif
